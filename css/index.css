@@ -1,0 +1,153 @@
+.clover {
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    margin: 20px auto;
+}
+
+.clover img {
+    margin: 5px;
+    width: 200px;
+}
+
+.spring {
+    width: 200px;
+    height: 200px;
+    border-radius: 50% 50% 0 50%;
+    background-color: #ec5eff;
+    margin: 5px;
+}
+
+.summer {
+    width: 200px;
+    height: 200px;
+    border-radius: 50% 50% 50% 0;
+    background-color: #f8ff72;
+    margin: 5px;
+}
+
+.autumn {
+    width: 200px;
+    height: 200px;
+    border-radius: 50% 0 50% 50%;
+    background-color: #7aff4d;
+    margin: 5px;
+}
+
+.winter {
+    width: 200px;
+    height: 200px;
+    border-radius: 0 50% 50% 50%;
+    background-color: #4dfff3;
+    margin: 5px;
+}
+
+body {
+    padding: 2rem;
+    text-align: center;
+    height: 749px;
+    background: linear-gradient(to bottom, #98ff84,white);
+}
+
+.btn1 {
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    background: #ec5eff;
+    box-shadow: 0 3px #c04ecf;
+    position: relative;
+    /*꼭 사용*/
+    display: inline-block;
+    top: -2px;
+    padding: 10px 20px;
+    margin: 0px 20px 0px 20px;
+}
+
+.btn1:hover {
+    box-shadow: 0 1px #c04ecf;
+    top: 1px;
+}
+
+.btn1:active {
+    background: #c04ecf;
+    top: 1px;
+}
+
+
+.btn2 {
+    font-size: 1.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    background: #f8ff72;
+    box-shadow: 0 3px #c6cb5c;
+    position: relative;
+    /*꼭 사용*/
+    display: inline-block;
+    top: -2px;
+    padding: 10px 20px;
+    margin: 0px 20px 0px 20px;
+}
+
+.btn2:hover {
+    box-shadow: 0 1px #c6cb5c;
+    top: 1px;
+}
+
+.btn2:active {
+    background: #c6cb5c;
+    color: black;
+    top: 1px;
+}
+
+
+.btn3 {
+    font-size: 1.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    background: #7aff4d;
+    box-shadow: 0 3px #65d340;
+    position: relative;
+    /*꼭 사용*/
+    display: inline-block;
+    top: -2px;
+    padding: 10px 20px;
+    margin: 0px 20px 0px 20px;
+}
+
+.btn3:hover {
+    box-shadow: 0 1px #65d340;
+    top: 1px;
+}
+
+.btn3:active {
+    background: #65d340;
+    color: black;
+    top: 1px;
+}
+
+
+.btn4 {
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    background: #4dfff3;
+    box-shadow: 0 3px #42dacf;
+    position: relative;
+    /*꼭 사용*/
+    display: inline-block;
+    top: -2px;
+    padding: 10px 20px;
+    margin: 0px 20px 0px 20px;
+}
+
+.btn4:hover {
+    box-shadow: 0 1px #42dacf;
+    top: 1px;
+}
+
+.btn4:active {
+    background: #42dacf;
+    top: 1px;
+}
